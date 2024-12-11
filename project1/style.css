@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #e5e5fd;
+    min-height:100vh;
+    border:10px solid #1D1E4C;
+
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.top-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+ }
+    
+    h1 {
+    font-size: 60px;
+    font-weight: bold;
+    columns:#1d1e4c;
+     text-transform: uppercase;
+}
+h4{
+    text-align:end;
+    font-size: 30px;
+}
+
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
