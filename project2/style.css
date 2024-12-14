@@ -4,8 +4,22 @@
     box-sizing: border-box;
     
 }
-
+body{
+    background-color: gray;
+}
 .container{
     max-width: 900px;
     margin: 0 auto;
+}
+.apply_box{
+    max-width: 600ox;
+    padding:20px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgb(1,1, 1, 0.1);
+    border-radius: 10px;
+}
+web {
+    font-size: 20px;
 }
