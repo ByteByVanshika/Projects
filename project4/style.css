@@ -10,9 +10,38 @@ body{
     font-weight: 300;
 }
 
-.hero_section {
-    background-attachment:url(p4img1.png);
+.hero_section{
+    background-image:url(p4img4.jpg) ;
     min-height: 100vh;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+.text_container{
+    color: white;
+    min-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+.lg-text{
+    font-size: 72px ;
+    font-weight: 400px;
+} 
+.black-box{
+padding: 20px;
+background-color: black;
+}
+.black-box span {
+    font-weight: 300;
+    font-size: 76px;
+    color: white;
+    text-align: center;
+    padding-left: 700px ;
+}
+.black-box h2 {
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    font-weight: 200px;
 }
