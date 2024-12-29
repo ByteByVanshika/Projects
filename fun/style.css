@@ -1,0 +1,95 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+}
+
+/* Hero Section */
+.hero_section {
+    background-image: url(p4img4.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_container {
+    color: white;
+    text-align: center;
+}
+
+.lg-text {
+    font-size: 72px;
+}
+
+/* Black Box Section */
+.black-box {
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+.black-box h2 {
+    font-size: 64px;
+    color: white;
+}
+
+.black-box span {
+    display: block;
+    font-weight: 300;
+    font-size: 76px;
+    color: white;
+}
+
+/* Work Section */
+.work {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    max-width: 320px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
+    background: white;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imgcontainor img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #555;
+}
